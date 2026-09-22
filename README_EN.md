@@ -68,7 +68,7 @@ The linked chapters and case studies are currently written in Chinese; this Engl
 
 | Part | Directory | Chapters | Focus |
 | --- | --- | --- | --- |
-| [Preface](./00-preface.md) | Repository root | — | Motivation, the reasons for this revision, and the scope of the book. |
+| [Preface](./00-preface/00-preface.md) | `00-preface/` | — | Motivation, the reasons for this revision, and the scope of the book. |
 | [2026 Agent Developer Survey Report](./2026-agent-survey-report.md) | Repository root | — | Enterprise development, production adoption, architecture choices, toolchains, governance, and evaluation. |
 | [Architecture](./01-architecture/) | `01-architecture/` | 1–2 | Define the system, select an application form, assess maturity, and establish a reference architecture. |
 | [Building](./02-build/) | `02-build/` | 3–6 | Organize tasks, information, and actions around the harness. |
