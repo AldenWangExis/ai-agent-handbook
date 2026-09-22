@@ -52,8 +52,8 @@ The linked chapters and case studies are currently written in Chinese; this Engl
 
 | Part | Directory | Chapters | Focus |
 | --- | --- | --- | --- |
-| [Preface](./00-preface/00-preface.md) | `00-preface/` | — | Motivation, the reasons for this revision, and the scope of the book. |
 | [2026 Agent Developer Survey Report](./2026-agent-survey-report.md) | Repository root | — | Enterprise development, production adoption, architecture choices, toolchains, governance, and evaluation. |
+| [Preface](./00-preface/00-preface.md) | `00-preface/` | — | The white paper's structure and background. |
 | [Architecture](./01-architecture/) | `01-architecture/` | 1–2 | Define the system, select an application form, assess maturity, and establish a reference architecture. |
 | [Building](./02-build/) | `02-build/` | 3–6 | Organize tasks, information, and actions around the harness. |
 | [Runtime](./03-run/) | `03-run/` | 7–12 | From reliable single-agent execution to asynchronous and distributed multi-agent systems. |
@@ -61,7 +61,6 @@ The linked chapters and case studies are currently written in Chinese; this Engl
 | [Optimization](./05-optimization/) | `05-optimization/` | 17–24 | Continuous improvement of both models and agents. |
 | [Practice](./06-case-study/) | `06-case-study/` | 25–29 | Enterprise cases, domain applications, and agent-infrastructure exploration. |
 | [Conclusion and Outlook](./07-conclusion/) | `07-conclusion/` | 30 | From Agentic Application to Agentic OS. |
-| Image assets | `assets/imgs/` | — | Figures organized by chapter. |
 
 ### Chapter guide
 
@@ -152,13 +151,15 @@ Thanks to everyone who has helped with architecture, writing, case studies, and 
 
 | Contribution area | Contributors |
 | --- | --- |
-| Architecture | 王晨(望宸), 沈林(静罗) |
-| Building | 刘军(陆龟), 泮圣伟(十眠) |
-| Runtime | 赵庆杰(卢令), 李诗波(承吉), 林清山(隆基), 黄晓萌(学仁), 张添翼(澄潭), 赵源筱(如漫), 孙校(洵沐), 宋震(凡玺), 胡庆达(执壹), 柳遵飞(翼严), 朱桐(濯光), 余华峰, 罗鑫(子葵), 孔可青(青瑭) |
-| Governance | 肖长军(穹谷), 周洋(中亭), 张磊(玄裕), 王方(方羞), 张海彬(古琦), 程书意(舒义), 刘子明(牧思), 饶子昊(铖朴), 任懿(云邺), 杨永(渭龙), 王硕(蓝知), 马昕(灵闻), 刘宇轩(浴血), 杨翊(席翁) |
-| Optimization | 张寒萌(若梨), 李盛荣(舒伯), 王亚宁(栀露), 孙坚运(文渠), 马云雷, 王桢(士宁), 郑前祎, 刘航(望夕), 陈新(骏维) |
-| Practice | 杨涛(昀至), 朱颜(竞竞), 余艾琳(芋一), 胡峻(老糊) |
-| Conclusion and Outlook | 林演(林生) |
+| Preface | 麻芃 |
+| Developer Survey Report | 任娟, 王晨 |
+| Architecture | 王晨, 刘军, 沈林 |
+| Building | 刘军, 泮圣伟, 王晨 |
+| Runtime | 赵庆杰, 李诗波, 林清山, 黄晓萌, 张添翼, 赵源筱, 孙校, 宋震, 胡庆达, 柳遵飞, 朱桐, 余华峰, 罗鑫, 孔可青 |
+| Governance | 肖长军, 周洋, 张磊, 王方, 张海彬, 程书意, 刘子明, 饶子昊, 任懿, 杨永, 王硕, 马昕, 刘宇轩, 杨翊 |
+| Optimization | 张寒萌, 李盛荣, 王亚宁, 孙坚运, 马云雷, 王桢, 郑前祎, 刘航, 陈新 |
+| Practice | 杨涛, 朱颜, 余艾琳, 胡峻 |
+| Conclusion and Outlook | 林演 |
 
 ### External Contributors
 
