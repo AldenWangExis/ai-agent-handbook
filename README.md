@@ -159,11 +159,11 @@
 
 | 贡献领域 | 贡献者 |
 | --- | --- |
-| 架构篇 | [王晨(望宸)](https://github.com/max-wc)、[沈林(静罗)](https://github.com/2011shenlin) |
-| 构建篇 | [刘军(陆龟)](https://github.com/chickenlj)、[泮圣伟(十眠)](https://github.com/panxiaojun233) |
-| 运行篇 | [赵庆杰(卢令)](https://github.com/jackzhao8886)、[李诗波(承吉)](https://github.com/ifree99)、[林清山(隆基)](https://github.com/hill007299)、[黄晓萌(学仁)](https://github.com/HuangXiaomeng)、[张添翼(澄潭)](https://github.com/johnlanni)、[赵源筱(如漫)](https://github.com/endlessseeker)、[孙校(洵沐)](https://github.com/sunxia0)、[宋震(凡玺)](https://github.com/skyrealman)、[胡庆达(执壹)](https://github.com/hqd2009)、[柳遵飞(翼严)](https://github.com/shiyiyue1102)、[朱桐(濯光)](https://github.com/Sunrisea)、[余华峰](https://github.com/maplefeng-a)、[罗鑫(子葵)](https://github.com/luoxiner)、[孔可青(青瑭)](https://github.com/kkqqqqqq) |
-| 治理篇 | [肖长军(穹谷)](https://github.com/xcaspar)、[周洋(中亭)](https://github.com/aspnetdb)、[张磊(玄裕)](https://github.com/MrZhangL)、[王方(方羞)](https://github.com/fangxiu-wf)、[张海彬(古琦)](https://github.com/NameHaibinZhang)、[程书意(舒义)](https://github.com/chengshuyi)、[刘子明(牧思)](https://github.com/123liuziming)、[饶子昊(铖朴)](https://github.com/steverao)、[任懿(云邺)](https://github.com/boo0m)、[杨永(渭龙)](https://github.com/Chalres-yang)、[王硕(蓝知)](https://github.com/MagicBlueCH)、[马昕(灵闻)](https://github.com/maxin0324)、[刘宇轩(浴血)](https://github.com/uestc-lyx)、[杨翊(席翁)](https://github.com/KomachiSion) |
-| 调优篇 | [张寒萌(若梨)](https://github.com/ColdMe)、[李盛荣(舒伯)](https://github.com/Lsrsaga)、[王亚宁(栀露)](https://github.com/Wyn123321)、[孙坚运(文渠)](https://github.com/simonjoylet)、[马云雷](https://github.com/mayunlei)、[王桢(士宁)](https://github.com/neverafraid1)、[郑前祎](https://github.com/zqyi)、[刘航(望夕)](https://github.com/liuhang51574-art)、[陈新(骏维)](https://github.com/chenx0116-bit) |
+| 架构篇 | 王晨(望宸)、沈林(静罗) |
+| 构建篇 | 刘军(陆龟)、泮圣伟(十眠) |
+| 运行篇 | 赵庆杰(卢令)、李诗波(承吉)、林清山(隆基)、黄晓萌(学仁)、张添翼(澄潭)、赵源筱(如漫)、孙校(洵沐)、宋震(凡玺)、胡庆达(执壹)、柳遵飞(翼严)、朱桐(濯光)、余华峰、罗鑫(子葵)、孔可青(青瑭) |
+| 治理篇 | 肖长军(穹谷)、周洋(中亭)、张磊(玄裕)、王方(方羞)、张海彬(古琦)、程书意(舒义)、刘子明(牧思)、饶子昊(铖朴)、任懿(云邺)、杨永(渭龙)、王硕(蓝知)、马昕(灵闻)、刘宇轩(浴血)、杨翊(席翁) |
+| 调优篇 | 张寒萌(若梨)、李盛荣(舒伯)、王亚宁(栀露)、孙坚运(文渠)、马云雷、王桢(士宁)、郑前祎、刘航(望夕)、陈新(骏维) |
 | 实践篇 | 杨涛(昀至)、朱颜(竞竞)、余艾琳(芋一)、胡峻(老糊) |
 | 总结与展望篇 | 林演(林生) |
 
