@@ -1,42 +1,26 @@
-<div align="right"><a href="./README.md">中文</a> | English</div>
+# README
 
-# AI Agent Core Technology White Paper
+[中文](./README.md) | English
 
-<div align="center">
-  <p><strong>Putting Intelligence to Work: From Building AI to Using It Well</strong></p>
-  <p>A lifecycle guide to architecting, building, operating, governing, and improving enterprise AI agents</p>
-</div>
+# AI Agent HandBook
+
+Following the agent lifecycle—from architecture and building to operation, governance, and optimization—we share the experience and lessons we have gained from deploying enterprise agents. If this white paper helps individuals learn or organizations put agents into practice, we would be deeply grateful.
+
+We dedicate this project to everyone contributing to the development of AI.
 
 ---
 
 ## 1. Background and Structure
 
-As models move beyond generating content to understanding goals, using tools, interacting with environments, and completing long-running tasks, the enterprise question changes. It is no longer just how to integrate a large model, but how to make agents reliable, controllable, and scalable. Model capability remains essential, but a production agent also needs a harness, runtime, state store, tool and protocol layer, gateway, security controls, observability, evaluation, and continuous improvement.
+In September 2025, we published the [AI-Native Application Architecture White Paper](https://developer.aliyun.com/ebook/8479). It examined the full DevOps lifecycle of AI-native applications—from architecture and technology choices to engineering practice, operations, and optimization—breaking down key concepts and difficult problems while offering possible approaches. As models and agent technologies have advanced rapidly, however, attention has shifted from building agents quickly to three new challenges:
 
-The guiding idea of this white paper is to turn broadly available cognitive capability into dependable task outcomes. Rather than committing to one model, framework, or vendor, it develops a coherent vocabulary, reference architecture, and set of engineering boundaries that teams can carry across changing technologies.
+- **Engineering:** Turn probabilistic intelligence into reliable productivity so agents can take on critical tasks.
+- **Scaling:** Address stability, security, performance, and cost as agents move from isolated experiments to intelligent infrastructure that can be deployed at scale.
+- **Organization:** Move beyond isolated agents and bring them into core business processes as part of an intelligent organization.
 
-### Why this white paper
+Last year's white paper can no longer fully address these needs.
 
-The [2026 Agent Developer Survey Report](./2026-agent-survey-report.md) collected 1,906 valid responses from enterprise technology decision-makers, architects, engineers, and product managers. Its central finding is a gap between agent development and production deployment:
-
-- 46% of respondents had completed or were developing agents, but only 18% had deployed them in production.
-- Single-agent systems, multi-agent systems, and human-in-the-loop designs are likely to coexist; autonomy should match task risk.
-- 90% of enterprises reported a need for context and memory management. State degradation, inaccurate retrieval, and missing update or forgetting mechanisms hinder long-running work.
-- 63% wanted better multi-model routing and automatic fallback, making a shared traffic entry point and cost controls important infrastructure concerns.
-- 55% still relied mainly on manual sampling to evaluate agents, while fewer than 8% used automated evaluation based on execution trajectories.
-- Coding agents have led adoption, but models, tools, and frameworks remain fragmented. Portable engineering abstractions matter more than betting on one product.
-
-These findings suggest that production readiness is not solely a model problem. The white paper therefore follows the full agent-application lifecycle:
-
-| Stage | Core question | What this white paper covers |
-| --- | --- | --- |
-| Architecture | What application form and level of autonomy fit the task? | Agentic Application boundaries, maturity, and a reference architecture. |
-| Building | How can model decisions become tasks that advance, recover, and finish verifiably? | A harness built around contracts for tasks, information, and actions. |
-| Runtime | How can agents work reliably and at scale in real environments? | Sandboxes, state storage, AI gateways, asynchronous work, multi-agent coordination, and communication. |
-| Governance | How can teams observe behavior, control risk, manage assets, and validate before release? | Observability, security, asset management, and behavior validation. |
-| Optimization | How can production evidence lead to measurable improvement? | Model tuning, trajectories, golden datasets, bad-case analysis, and controlled self-evolution. |
-| Practice | How do these ideas translate into business workflows? | Cases in software engineering, design, operations, enterprise IT, customer operations, and agent infrastructure. |
-| Outlook | What comes after an Agentic Application? | A path toward Agentic OS and broader intelligent collaboration. |
+We have therefore reworked its structure. With more up-to-date content, a greater share devoted to real-world practice, and a more community-driven approach, we hope to support enterprise technology selection and internal project planning. By maintaining the white paper as an open-source project, we aim to keep sharing emerging thinking and practical experience in AI-native application architecture.
 
 ## 2. Audience and Takeaways
 
@@ -162,13 +146,11 @@ Please respect authorship and permission boundaries. Remove or obtain authorizat
 
 ## 5. Contributors
 
-Thanks to everyone who has helped with architecture, writing, case studies, and review. 
+Thanks to everyone who has helped with architecture, writing, case studies, and review.
 
-### Alibaba Agent Expert Team
+### Alibaba Cloud
 
-All current white-paper authors belong to the Alibaba Agent Expert Team. Names are retained as recorded in the Chinese author roster; where a GitHub ID is provided, the name links to the corresponding GitHub avatar URL.
-
-| Contribution area | Team members |
+| Contribution area | Contributors |
 | --- | --- |
 | Architecture | [王晨(望宸)](https://github.com/max-wc), [沈林(静罗)](https://github.com/2011shenlin) |
 | Building | [刘军(陆龟)](https://github.com/chickenlj), [泮圣伟(十眠)](https://github.com/panxiaojun233) |
@@ -180,8 +162,8 @@ All current white-paper authors belong to the Alibaba Agent Expert Team. Names a
 
 ### External Contributors
 
-Community contributions are welcome through Issues and Pull Requests; accepted contributors will be acknowledged here.
+The project remains open to community contributions. Developers, architects, researchers, enterprise technology teams, and product practitioners are welcome to collaborate through Issues and Pull Requests. Accepted contributors will be acknowledged in this section.
 
 ---
 
-If this white paper helps you understand, build, or govern agents, please share it, discuss it, and help improve it.
+If this white paper helps you better understand, build, operate, govern, and optimize agents, please share it, discuss it, and help improve it.
