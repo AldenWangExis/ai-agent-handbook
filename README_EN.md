@@ -162,7 +162,7 @@ Please respect authorship and permission boundaries. Remove or obtain authorizat
 
 ## 5. Contributors
 
-Thanks to everyone who has helped with architecture, writing, case studies, and review. The current author list comes from the [author roster](./作者.md).
+Thanks to everyone who has helped with architecture, writing, case studies, and review. 
 
 ### Alibaba Agent Expert Team
 
@@ -180,7 +180,7 @@ All current white-paper authors belong to the Alibaba Agent Expert Team. Names a
 
 ### External Contributors
 
-There are no external contributors yet. Community contributions are welcome through Issues and Pull Requests; accepted contributors will be acknowledged here.
+Community contributions are welcome through Issues and Pull Requests; accepted contributors will be acknowledged here.
 
 ---
 
