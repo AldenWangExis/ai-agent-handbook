@@ -23,6 +23,10 @@ text = book.read_text(encoding="utf-8")
 # drop the pandoc YAML block; Chirpy supplies its own front matter
 text = re.sub(r'\A---\n.*?\n---\n+', '', text, flags=re.S)
 
+# the anchors are plain <a id> tags for GitHub's sake; kramdown can put the same
+# ids on the headings themselves, which keeps html-proofer happy
+text = re.sub(r'<a id="([^"]+)"></a>\n\n(#{1,6} .+)', r'\2 {#\1}', text)
+
 # Chirpy posts start their headings at h2, so push everything down one level
 text = re.sub(r'^(#{1,6})(?= )', lambda m: '#' * min(6, len(m.group(1)) + 1), text, flags=re.M)
 
