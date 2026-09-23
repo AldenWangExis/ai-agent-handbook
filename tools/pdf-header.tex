@@ -1,0 +1,29 @@
+% ---- code blocks: accent bar + light background.
+% Note: fvextra's breaklines loops forever on this book's CJK-containing code
+% blocks, so long lines are wrapped in the source instead (see pdf-source.py),
+% and Shaded keeps framed's snugshade internals, which survive page breaks.
+\usepackage{xcolor}
+\usepackage{fancyvrb}
+\usepackage{framed}
+
+\definecolor{codebg}{RGB}{246,247,250}
+\definecolor{codeframe}{RGB}{168,180,196}
+
+% highlighted blocks (```bash, ```ts, ...)
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{fontsize=\small,commandchars=\\\{\}}
+\makeatletter
+\renewenvironment{Shaded}{%
+  \def\FrameCommand##1{\hskip\@totalleftmargin
+    {\color{codeframe}\vrule width 1.4pt}%
+    \colorbox{codebg}{##1}%
+    \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+  \MakeFramed{\advance\hsize-\width \@totalleftmargin\z@ \linewidth\hsize \@setminipage}}%
+  {\par\unskip\endMakeFramed}
+\makeatother
+
+% plain blocks (``` and ```text / ```plaintext)
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\small,%
+  frame=leftline,framerule=1.4pt,rulecolor=\color{codeframe},framesep=7pt,%
+  xleftmargin=8pt}
+
+\setcounter{tocdepth}{2}

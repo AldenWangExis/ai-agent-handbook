@@ -63,6 +63,10 @@ def clean(text):
     # author annotations written as LaTeX \color spans -> plain text
     text = re.sub(r'\$\\color\{[^}]*\}\{([^}]*)\}\$', r'（\1）', text)
 
+    # a few citation markers in the source link to an empty anchor; keep the
+    # marker, drop the dead link
+    text = re.sub(r'\[([^\]]{1,20})\]\(#\)', r'[\1]', text)
+
     # the source was exported from a WYSIWYG editor, which escaped _ [ ] * inside
     # LaTeX spans; undo that so the formulas actually parse
     def unescape_math(m):

@@ -8884,7 +8884,7 @@ _模型蒸馏端到端闭环：数据管线产出经验证的示范，训练环�
     
 4.  **采样与训练解耦**
     
-    on-policy 路线的真正瓶颈是学生 rollout 采样，而非梯度计算。工程上应把“生成”交给高吞吐推理引擎、“训练”交给训练后端，两者解耦并行。TRL 支持与 vLLM server 协同：trainer 向 OpenAI 兼容端点发送 prompt token IDs 采样，每个优化步后经 NCCL 三段式把最新权重推回推理引擎，且 server 与 trainer 必须位于不同 CUDA 设备[15](#)。verl 采用 3D-HybridEngine 解耦计算与数据依赖，生成后端支持 vLLM 与 SGLang、训练后端支持 FSDP 与 Megatron-LM，并提供 Rollout Correction，用重要性采样与拒绝采样修正“推理引擎策略”与“训练策略”之间的分布漂移。OpenRLHF 则以 Ray+vLLM 把 Actor/Reward/Reference/Critic 分布到不同 GPU。
+    on-policy 路线的真正瓶颈是学生 rollout 采样，而非梯度计算。工程上应把“生成”交给高吞吐推理引擎、“训练”交给训练后端，两者解耦并行。TRL 支持与 vLLM server 协同：trainer 向 OpenAI 兼容端点发送 prompt token IDs 采样，每个优化步后经 NCCL 三段式把最新权重推回推理引擎，且 server 与 trainer 必须位于不同 CUDA 设备[15]。verl 采用 3D-HybridEngine 解耦计算与数据依赖，生成后端支持 vLLM 与 SGLang、训练后端支持 FSDP 与 Megatron-LM，并提供 Rollout Correction，用重要性采样与拒绝采样修正“推理引擎策略”与“训练策略”之间的分布漂移。OpenRLHF 则以 Ray+vLLM 把 Actor/Reward/Reference/Critic 分布到不同 GPU。
     
     两个务实提醒：其一，框架与推理引擎的版本矩阵往往很严格（例如异步蒸馏对 vLLM、transformers 版本和 FSDP2 有硬约束），生产环境应锁定并记录版本组合；其二，异步与解耦必然引入一定 off-policy 偏差，需要配套的重要性采样或拒绝采样修正，否则训练容易不稳定。
     
