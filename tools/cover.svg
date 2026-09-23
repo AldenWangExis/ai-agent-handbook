@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1a3a"/>
+      <stop offset="60%" stop-color="#123a6b"/>
+      <stop offset="100%" stop-color="#0089FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2">
+    <circle cx="600" cy="640" r="250"/><circle cx="600" cy="640" r="170"/><circle cx="600" cy="640" r="90"/>
+    <path d="M600 390 V890 M350 640 H850 M423 463 L777 817 M777 463 L423 817"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="600" cy="640" r="26"/>
+    <circle cx="600" cy="390" r="14"/><circle cx="600" cy="890" r="14"/>
+    <circle cx="350" cy="640" r="14"/><circle cx="850" cy="640" r="14"/>
+    <circle cx="423" cy="463" r="10"/><circle cx="777" cy="817" r="10"/>
+    <circle cx="777" cy="463" r="10"/><circle cx="423" cy="817" r="10"/>
+  </g>
+  <text x="600" y="1120" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="96" font-weight="bold" fill="#ffffff">AI Agent HandBook</text>
+  <text x="600" y="1230" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Helvetica, sans-serif" font-size="46" fill="#cfe5ff">企业级 Agent 的架构 · 构建 · 运行 · 治理 · 调优</text>
+  <rect x="440" y="1290" width="320" height="3" fill="#ffffff" fill-opacity="0.5"/>
+  <text x="600" y="1370" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Helvetica, sans-serif" font-size="38" fill="#e8f2ff">阿里云 · 开源白皮书合订本</text>
+  <text x="600" y="1450" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#9fc6f5">github.com/aliyun/ai-agent-handbook</text>
+</svg>
